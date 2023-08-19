@@ -1,0 +1,4 @@
+repository "GBJam@OniUVC@cloud"
+  path "/"
+    br "/main"
+    co "/main"
