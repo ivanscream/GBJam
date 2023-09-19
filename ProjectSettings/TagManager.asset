@@ -7,14 +7,24 @@ TagManager:
   - Sky
   - Forest
   - Road
+  - Block
+  - red
+  - blue
+  - purple
+  - green
+  - white
+  - cyan
+  - yellow
+  - orange
+  - rainbow
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Block
   - Water
   - UI
-  - 
+  - PickUps
   - 
   - 
   - 
