@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1229a648be19c5445868988fd4eb5095
+guid: a24e870b3b702e64982421d19ae4b957
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,11 +149,32 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walls_spritesheet_0
+      name: blockswithrunes_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00498ad480854349b8911695a53f495
+      internalID: 1979492530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blockswithrunes_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 31
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -163,18 +184,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5166faecddae2804691a0596798e2fd7
-      internalID: 820007509
+      spriteID: 41c4f7ab91f4bed44b3ddbf4013c5ab3
+      internalID: 1935105401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walls_spritesheet_1
+      name: blockswithrunes_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 31
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -184,18 +205,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90000df47c19f7146972d7ca8dd22066
-      internalID: -1863017292
+      spriteID: 234568ab862afd3448e5723dd7f45f80
+      internalID: -1608681573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walls_spritesheet_2
+      name: blockswithrunes_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 31
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -205,18 +226,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 377cbff5e1544f647bd7bfea030f9bea
-      internalID: 1781788074
+      spriteID: 76f504712f3894c418c22c48a9184ec4
+      internalID: 492122302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walls_spritesheet_3
+      name: blockswithrunes_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 15
+        x: 64
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -226,18 +247,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a38de9846b5d434f92761da68890f3e
-      internalID: 1615424932
+      spriteID: 08ca298f5128d414eb20f889197b88cc
+      internalID: -725121038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walls_spritesheet_4
+      name: blockswithrunes_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 15
+        x: 80
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -247,18 +268,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be76b6a64b570b0418810e9e21fbdc13
-      internalID: 1888579732
+      spriteID: 0928e4036840c004ebdad7f2527927b1
+      internalID: 1790811845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walls_spritesheet_5
+      name: blockswithrunes_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 15
+        x: 96
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -268,8 +289,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f9fce70ebacb444c93874d58afdc387
-      internalID: 1101985949
+      spriteID: 46cf984f85169ab44be3122320a81b5d
+      internalID: -1401524150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blockswithrunes_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533a7c966b492714983d72ca24d83de4
+      internalID: 1124784104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blockswithrunes_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6032ef41e9f10fc4a867aae563a4bddb
+      internalID: -938085020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blockswithrunes_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2236847ad2242449ce6424a690ca49
+      internalID: -477479517
       vertices: []
       indices: 
       edges: []
@@ -285,12 +369,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Walls_spritesheet_0: 820007509
-      Walls_spritesheet_1: -1863017292
-      Walls_spritesheet_2: 1781788074
-      Walls_spritesheet_3: 1615424932
-      Walls_spritesheet_4: 1888579732
-      Walls_spritesheet_5: 1101985949
+      blockswithrunes_0: 1979492530
+      blockswithrunes_1: 1935105401
+      blockswithrunes_2: -1608681573
+      blockswithrunes_3: 492122302
+      blockswithrunes_4: -725121038
+      blockswithrunes_5: 1790811845
+      blockswithrunes_6: -1401524150
+      blockswithrunes_7: 1124784104
+      blockswithrunes_8: -938085020
+      blockswithrunes_9: -477479517
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

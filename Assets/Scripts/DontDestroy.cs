@@ -7,6 +7,7 @@ public class DontDestroy : MonoBehaviour
 
     private static DontDestroy playerInstance;
     void Awake(){
+        
         DontDestroyOnLoad (this);
 		
         if (playerInstance == null) {

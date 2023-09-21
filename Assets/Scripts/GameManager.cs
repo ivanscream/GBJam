@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public bool rune1Active, rune2Active, rune3Active, rune4Active, rune5Active, 
-                rune6Active, rune7Active, rune8Active, rune9Active;
+    public bool rune1Picked, rune2Picked, rune3Picked, rune4Picked, rune5Picked, 
+                rune6Picked, rune7Picked, rune8Picked, rune9Picked;
     public static GameManager gameManager;
     private int runes;
 
