@@ -2,14 +2,18 @@ using UnityEngine;
 
 public class CamFollow : MonoBehaviour
 {
-    public Transform target;        
+    private GameObject target;        
     public float smoothSpeed = 3f; 
     public Vector3 offset;
     public Vector3 minValue, maxValue;
 
+    void Update()
+    {
+        target = GameObject.FindWithTag("Player");
+    }
     void LateUpdate()
     {
-        Vector3 desiredPosition = target.position + offset;
+        Vector3 desiredPosition = target.transform.position + offset;
         desiredPosition.z = transform.position.z;
 
         Vector3 boundPosition = new Vector3 (

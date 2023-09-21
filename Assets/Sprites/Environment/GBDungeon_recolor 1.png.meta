@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8489c40e73302944b8cceff4e0736ac8
+guid: 2a68cc9ef51e9c142a24ef2c63e11000
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,11 +149,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RPG_interior_recolored_0
+      name: GBDungeon_recolor 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -163,18 +163,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 857952769830b7e4b8efbba10005d353
-      internalID: 1550377662
+      spriteID: 8152cc4a2ef5f514c9225ec5c54c9905
+      internalID: -1746728598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_1
+      name: GBDungeon_recolor 1_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -184,18 +184,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 937e33247a87faa4686dec7ac4469a84
-      internalID: 408261600
+      spriteID: eb41b0e79e6c9314dbc103aa8167e462
+      internalID: 1434367038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_2
+      name: GBDungeon_recolor 1_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -205,18 +205,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6ea258f0a821c448e5d56f80a1a910
-      internalID: 1423813022
+      spriteID: 5424002ff93eaec44bebb73ded67e44a
+      internalID: 209927124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_3
+      name: GBDungeon_recolor 1_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -226,18 +226,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6537605413393784f8a9c15187203cdd
-      internalID: -2125678140
+      spriteID: c1de8849b338b4542b083bb20515fcde
+      internalID: 428308053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_4
+      name: GBDungeon_recolor 1_4
       rect:
         serializedVersion: 2
         x: 64
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -247,18 +247,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85918337424e8fa4395c1a3a52140168
-      internalID: 47107734
+      spriteID: 6c851513c043b194ca64530a3ead7dd8
+      internalID: -614305571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_5
+      name: GBDungeon_recolor 1_5
       rect:
         serializedVersion: 2
         x: 80
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -268,18 +268,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7852b4012349b0b47b06e6d8bcda7cfa
-      internalID: 1480583729
+      spriteID: 0eb7f624d1b4eaf458b731649d6302fc
+      internalID: -1816274571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_6
+      name: GBDungeon_recolor 1_6
       rect:
         serializedVersion: 2
         x: 96
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -289,18 +289,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 008af05bb97574f4c8fc9c726b8ba392
-      internalID: -2060428415
+      spriteID: 314426468d8c00f45a57e3e496281e58
+      internalID: 1647452775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_7
+      name: GBDungeon_recolor 1_7
       rect:
         serializedVersion: 2
         x: 112
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -310,18 +310,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28abcc72a263a8641a7125f0c6de1056
-      internalID: 1980776177
+      spriteID: 4782f6c18d9015e4fad5893832bdb056
+      internalID: 684537316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_8
+      name: GBDungeon_recolor 1_8
       rect:
         serializedVersion: 2
         x: 128
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -331,18 +331,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1db29283ada81e47b52c207e0d21d89
-      internalID: 1898611498
+      spriteID: f010794c10106a84a8bf7554502c6780
+      internalID: -58520427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_9
+      name: GBDungeon_recolor 1_9
       rect:
         serializedVersion: 2
         x: 144
-        y: 88
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -352,39 +352,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b892f27ab7f35d4fb33198fd8654f9b
-      internalID: 1380839191
+      spriteID: 67abd2eb89b6cd245b9468ae0b60650b
+      internalID: 151735023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_10
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c63121949766547479fcbec493ff46b9
-      internalID: -770708889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_interior_recolored_11
+      name: GBDungeon_recolor 1_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -394,18 +373,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7deefbefc43f4b046bd100a92ca3593e
-      internalID: 1920671787
+      spriteID: fb06dd2a09de6594c88f936b74a771d8
+      internalID: 891612936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_12
+      name: GBDungeon_recolor 1_11
       rect:
         serializedVersion: 2
         x: 16
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -415,18 +394,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72467f9d7d265bb4eb434b2d758e58ee
-      internalID: -1800352947
+      spriteID: 4a8884164bfbe494396e3fe96063c3d0
+      internalID: 778596561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_13
+      name: GBDungeon_recolor 1_12
       rect:
         serializedVersion: 2
         x: 32
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -436,18 +415,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec8d932b95919434598d55ff8fbe7b32
-      internalID: 1196207878
+      spriteID: 85691a9e6a71abb4d8b57b18921fd68a
+      internalID: 760283622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_14
+      name: GBDungeon_recolor 1_13
       rect:
         serializedVersion: 2
         x: 48
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -457,18 +436,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 525c93ddf4926e443b862176cb542dd4
-      internalID: -226065251
+      spriteID: f1c4b3b055de87541a3ecef7ca74550e
+      internalID: -866648753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_15
+      name: GBDungeon_recolor 1_14
       rect:
         serializedVersion: 2
         x: 64
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -478,18 +457,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a719df3dee7b0a43b8a9c3a3a37c4d4
-      internalID: -1102699983
+      spriteID: 42dc4e075e416ca469321013b0d8184f
+      internalID: 126848228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_16
+      name: GBDungeon_recolor 1_15
       rect:
         serializedVersion: 2
         x: 80
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -499,18 +478,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14be79a1d39938c4993792a2d08aba6d
-      internalID: -1432178920
+      spriteID: 427aed571a4758d4489627a5702e3a46
+      internalID: 1877114870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_17
+      name: GBDungeon_recolor 1_16
       rect:
         serializedVersion: 2
         x: 96
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -520,18 +499,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a236ced7a9c0d144a88d68af51813a07
-      internalID: 1953030847
+      spriteID: ee4466152effa5e498e17a2650b8cd76
+      internalID: -1404595572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_18
+      name: GBDungeon_recolor 1_17
       rect:
         serializedVersion: 2
         x: 112
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -541,18 +520,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cd842f65a2495f488ee63aefc391d4d
-      internalID: 260343907
+      spriteID: 10e29c4bfc0de2d4db52f6900147a0cc
+      internalID: -445870549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_19
+      name: GBDungeon_recolor 1_18
       rect:
         serializedVersion: 2
         x: 128
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -562,18 +541,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78bf2b62c12aa3e49b88ef5cd507ddf0
-      internalID: -1698669721
+      spriteID: 50b84d5ec58ae844fb11f11b427044d3
+      internalID: 936549418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_20
+      name: GBDungeon_recolor 1_19
       rect:
         serializedVersion: 2
         x: 144
-        y: 72
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -583,39 +562,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf24ebdc57bf90f4fa2a428754daea85
-      internalID: -962293684
+      spriteID: b191b474857eb4f4d8fd5940235b02e3
+      internalID: -202005012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_21
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0edd5231c92c41a4583371081131291a
-      internalID: -2063184092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_interior_recolored_22
+      name: GBDungeon_recolor 1_20
       rect:
         serializedVersion: 2
         x: 0
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -625,18 +583,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c591ff26a25546445a90e1dbd60b38c5
-      internalID: 1018567042
+      spriteID: 1046c7e026ffb8f47bf8ffbbbf5ebace
+      internalID: -1907008513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_23
+      name: GBDungeon_recolor 1_21
       rect:
         serializedVersion: 2
         x: 16
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -646,18 +604,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bb8ebb8f9e325644b7432d71ec7d667
-      internalID: -203880960
+      spriteID: aeefa44aef71c56499a0b13658c85977
+      internalID: 764599156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_24
+      name: GBDungeon_recolor 1_22
       rect:
         serializedVersion: 2
         x: 32
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -667,18 +625,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a94f21f725b71384d85b8ff1b165dbbf
-      internalID: 419462194
+      spriteID: 2be59a9f4cf2d9b41b38069868a3a082
+      internalID: 173273373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_25
+      name: GBDungeon_recolor 1_23
       rect:
         serializedVersion: 2
         x: 48
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -688,18 +646,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2a35529510adc944b7f2d097063e770
-      internalID: -1703814135
+      spriteID: 0bccdabce6aa2e54abfceecdac91c7ae
+      internalID: 1909941830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_26
+      name: GBDungeon_recolor 1_24
       rect:
         serializedVersion: 2
         x: 64
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -709,18 +667,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5939c87912fe06a498135925a3021705
-      internalID: -1309892577
+      spriteID: dcbdc71a6494d0f48b960c87a29ddde9
+      internalID: 1324503477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_27
+      name: GBDungeon_recolor 1_25
       rect:
         serializedVersion: 2
         x: 80
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -730,18 +688,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2337c6d76ec18740871fed9c58d2927
-      internalID: 1235792847
+      spriteID: 32c7a2fa146ae194fbdaff1b61c18b0d
+      internalID: -456967765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_28
+      name: GBDungeon_recolor 1_26
       rect:
         serializedVersion: 2
         x: 96
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -751,18 +709,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d70ec991455a144e9f6dd77f38f8100
-      internalID: -1656453248
+      spriteID: da9d2fac81837df4eafc5fb6ef359be8
+      internalID: 1317198825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_29
+      name: GBDungeon_recolor 1_27
       rect:
         serializedVersion: 2
         x: 112
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -772,18 +730,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36fb9a838379f314c8cc87da23adffbb
-      internalID: 748121345
+      spriteID: c6de20881c68ac740a4058701e90d548
+      internalID: 1488703492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_30
+      name: GBDungeon_recolor 1_28
       rect:
         serializedVersion: 2
         x: 128
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -793,18 +751,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29e8d32776441ac48a76a606088b8998
-      internalID: -1822262387
+      spriteID: ee61319f766fde341b0705ba93dc3e0e
+      internalID: 1275093029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_31
+      name: GBDungeon_recolor 1_29
       rect:
         serializedVersion: 2
         x: 144
-        y: 56
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -814,39 +772,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 955e7c204806d4c47a88763a8a549b5b
-      internalID: 727408394
+      spriteID: fb8e64d910afe9a42a56668ced9480f5
+      internalID: 17607126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_32
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54e2aa3323b95b24bb25b8d8ab6c38db
-      internalID: -551459066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_interior_recolored_33
+      name: GBDungeon_recolor 1_30
       rect:
         serializedVersion: 2
         x: 0
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -856,18 +793,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37fb74cbb539dfa4f971c5bdf2c5e4fa
-      internalID: 1540981640
+      spriteID: 0f9658ebb8517924b88b494a76c6065b
+      internalID: -1191229309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_34
+      name: GBDungeon_recolor 1_31
       rect:
         serializedVersion: 2
         x: 16
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -877,18 +814,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d1042d34367b24eaad16aee8913e38
-      internalID: 1256345872
+      spriteID: ae75757f5b74b424294c9ea6cd2b263a
+      internalID: -378376839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_35
+      name: GBDungeon_recolor 1_32
       rect:
         serializedVersion: 2
         x: 32
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -898,18 +835,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e72fad566a8d1241be0466c8f2b242a
-      internalID: 1148476628
+      spriteID: 9ad5bbb087d8799499ffe084e23c8eae
+      internalID: -1500809090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_36
+      name: GBDungeon_recolor 1_33
       rect:
         serializedVersion: 2
         x: 48
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -919,18 +856,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77f28321b5c116147aeba88c75c31a72
-      internalID: -2142265316
+      spriteID: 74a7b358d95097f408c13a075c5c7bd9
+      internalID: -1208815309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_37
+      name: GBDungeon_recolor 1_34
       rect:
         serializedVersion: 2
         x: 64
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -940,18 +877,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25fd931149b35ab45a0831c7de9ddb6b
-      internalID: 147921482
+      spriteID: efca5b9f12ae3a648bf3b46679f5aacf
+      internalID: 2014831056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_38
+      name: GBDungeon_recolor 1_35
       rect:
         serializedVersion: 2
         x: 80
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -961,18 +898,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0e37416c0fe2d74782c817a89ac6e05
-      internalID: -38961492
+      spriteID: 1a4a62684f4853c40930036c14096aa4
+      internalID: 1643864912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_39
+      name: GBDungeon_recolor 1_36
       rect:
         serializedVersion: 2
         x: 96
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -982,18 +919,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d532820064740f47b7ce8597df89c48
-      internalID: -542314865
+      spriteID: 9c37bb54368f1b24a924be985568700d
+      internalID: -2043478495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_40
+      name: GBDungeon_recolor 1_37
       rect:
         serializedVersion: 2
         x: 112
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -1003,18 +940,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 230142457f62c0f4b95c9d514d6561c1
-      internalID: -133631602
+      spriteID: a8f0c52c0586d6e4bad9686b68dfba78
+      internalID: 1193674891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_41
+      name: GBDungeon_recolor 1_38
       rect:
         serializedVersion: 2
         x: 128
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -1024,18 +961,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6324e556b4f2aef47b68c4bdcf9e2603
-      internalID: 194480754
+      spriteID: 47a4decf362b9584e8ccd13822b6f5a8
+      internalID: 995557747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_42
+      name: GBDungeon_recolor 1_39
       rect:
         serializedVersion: 2
         x: 144
-        y: 40
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -1045,39 +982,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 222c3d356aa191f48a5f8f68599fb869
-      internalID: -623331231
+      spriteID: 54ce4d4e60e04e6468d18d808f21db90
+      internalID: 739801281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_43
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19a732ab76612db49849500f8697623e
-      internalID: -409977769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_interior_recolored_44
+      name: GBDungeon_recolor 1_40
       rect:
         serializedVersion: 2
         x: 0
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1087,18 +1003,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d199844276a960b45a2bbb84c27509f7
-      internalID: 1150258667
+      spriteID: 084964273fd83c2408316a409bbbbcaa
+      internalID: -1362450222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_45
+      name: GBDungeon_recolor 1_41
       rect:
         serializedVersion: 2
         x: 16
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1108,18 +1024,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2db367b7eb94b264abc5c51140140474
-      internalID: 896920482
+      spriteID: d21dbfedce9b1154f8c46646873e445e
+      internalID: -2050943378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_46
+      name: GBDungeon_recolor 1_42
       rect:
         serializedVersion: 2
         x: 32
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1129,18 +1045,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 988989347c4df0b428e28a54a95ec7de
-      internalID: 548465010
+      spriteID: 89276b55c62de434b8bbdc2e52bd7724
+      internalID: -298645082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_47
+      name: GBDungeon_recolor 1_43
       rect:
         serializedVersion: 2
         x: 48
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1150,18 +1066,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cb0f85e50c9d924b90f9f91e512eb77
-      internalID: -353879735
+      spriteID: 435b06f92e5947a4db8cd527294057e4
+      internalID: 217785221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_48
+      name: GBDungeon_recolor 1_44
       rect:
         serializedVersion: 2
         x: 64
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1171,18 +1087,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9533de03f81a6b6478e783e58b230e93
-      internalID: -1304730375
+      spriteID: 7934ecd6fa2075a4ababae3ec5d56f97
+      internalID: 1577035754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_49
+      name: GBDungeon_recolor 1_45
       rect:
         serializedVersion: 2
         x: 80
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1192,18 +1108,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1babcf4f6ea73ce4dae1dd726170863c
-      internalID: -692545444
+      spriteID: c78839dd5a39c7a44b7d3bb591b07b2b
+      internalID: 927925492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_50
+      name: GBDungeon_recolor 1_46
       rect:
         serializedVersion: 2
         x: 96
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1213,18 +1129,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eea9110d4ddf8549b1fa3d3de201bd1
-      internalID: 1015574892
+      spriteID: 611c4e1978d29e5499ab44a07c729d33
+      internalID: -783316501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_51
+      name: GBDungeon_recolor 1_47
       rect:
         serializedVersion: 2
         x: 112
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1234,18 +1150,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0547b990043530f4d959dffcd53d43e0
-      internalID: 1169226740
+      spriteID: 064765d9b6fe8ac4a8491021c4293554
+      internalID: 1959212941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_52
+      name: GBDungeon_recolor 1_48
       rect:
         serializedVersion: 2
         x: 128
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1255,18 +1171,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92b0a0c074054774ea3fce79a09b2165
-      internalID: -1758042306
+      spriteID: 23833f31ccefec44c90657b444f82193
+      internalID: -1008630354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_53
+      name: GBDungeon_recolor 1_49
       rect:
         serializedVersion: 2
         x: 144
-        y: 24
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1276,39 +1192,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 364f32b2fd98aeb45a6b6dd43f7772e0
-      internalID: 1763909450
+      spriteID: c6368a8dd137cb548ae3292ab8af94cd
+      internalID: 1994593290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_54
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54b579bd4faaa8543a969c3111799d11
-      internalID: 927784507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_interior_recolored_55
+      name: GBDungeon_recolor 1_50
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1318,18 +1213,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0c29b2fb2e8df4caaf0f59cfe703c1
-      internalID: 385035233
+      spriteID: f0986605325264b43aaecf2353f4960b
+      internalID: -1671495214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_56
+      name: GBDungeon_recolor 1_51
       rect:
         serializedVersion: 2
         x: 16
-        y: 8
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1339,18 +1234,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25e7a03986dcae469c02afe4afaa463
-      internalID: 1556014145
+      spriteID: 62ea180d911a8944988bdc4b967e71c2
+      internalID: -1872569613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_57
+      name: GBDungeon_recolor 1_52
       rect:
         serializedVersion: 2
         x: 32
-        y: 8
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1360,18 +1255,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a000f531815edf747ae54c9c4d2b5fd8
-      internalID: -1041737307
+      spriteID: d5023220efa40264880d17c547ce1874
+      internalID: 1051047683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_58
+      name: GBDungeon_recolor 1_53
       rect:
         serializedVersion: 2
         x: 48
-        y: 8
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1381,39 +1276,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 443e77f983bf867488ef09ddd37d2b75
-      internalID: -552213639
+      spriteID: bb09a9ba5b0f92040822272cd42c74a2
+      internalID: -551133929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_59
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 8
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8bf955985b34f044833e2ce0203c715
-      internalID: 2037644223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_interior_recolored_60
+      name: GBDungeon_recolor 1_54
       rect:
         serializedVersion: 2
         x: 80
-        y: 8
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1423,18 +1297,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5f586ed65eb6e749a8950c7849394e9
-      internalID: 2121524480
+      spriteID: 734fe655216ee774baffd0d980f9c6a8
+      internalID: -1301980962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_61
+      name: GBDungeon_recolor 1_55
       rect:
         serializedVersion: 2
         x: 96
-        y: 8
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1444,18 +1318,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afe1de04d2153de48aaa37b7273764df
-      internalID: 867056653
+      spriteID: c05d64cb75a2e5540ad352a40990dbe3
+      internalID: -2053251149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_62
+      name: GBDungeon_recolor 1_56
       rect:
         serializedVersion: 2
         x: 112
-        y: 8
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1465,18 +1339,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a540752bfe100e4d82d8e998b289398
-      internalID: -1483274521
+      spriteID: 8f626c4d11204f14ebb3a4ffc8906ff3
+      internalID: -416473021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_63
+      name: GBDungeon_recolor 1_57
       rect:
         serializedVersion: 2
         x: 128
-        y: 8
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1486,18 +1360,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c6519e3270b7344919f240eb231114
-      internalID: 914201718
+      spriteID: b530e24e452159c4aa7abef087f415f4
+      internalID: 1653975897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_64
+      name: GBDungeon_recolor 1_58
       rect:
         serializedVersion: 2
         x: 144
-        y: 8
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1507,18 +1381,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24319a069c800194688be4fa2aace323
-      internalID: 18219423
+      spriteID: 181a53ac2f37edc4ca1ea2df5c0d474b
+      internalID: 687989014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_interior_recolored_65
+      name: GBDungeon_recolor 1_59
       rect:
         serializedVersion: 2
-        x: 160
-        y: 8
+        x: 0
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -1528,8 +1402,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54d3b7386f31b9a41921481a7b0db2f4
-      internalID: 1123685989
+      spriteID: 5622f2d23b09ebc40987612265ebe567
+      internalID: -2011700124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GBDungeon_recolor 1_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9785f0b0b69a742ab76e7a2f837212
+      internalID: -408505861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GBDungeon_recolor 1_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6725cb2974848dc408dd9c375b121111
+      internalID: 144800276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GBDungeon_recolor 1_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2befe76003cd01d4e898b9198b60e0b7
+      internalID: -816959244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GBDungeon_recolor 1_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acba18f8e1fc9ef49a9f1c5c6cec2405
+      internalID: -1292404473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GBDungeon_recolor 1_64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c96c441e0bea9469c0802300d6d0e7
+      internalID: 95855581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GBDungeon_recolor 1_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230b3b816bc662c44bba520cfb8ba1ac
+      internalID: 1829110503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GBDungeon_recolor 1_66
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c8a42808b92f84d826060afbd4f97e
+      internalID: -1670346339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GBDungeon_recolor 1_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991cb49eb89119d46b2915a1ded53020
+      internalID: -1714720723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GBDungeon_recolor 1_68
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b59ebf0098abe428dfe303110c90b5
+      internalID: -84681775
       vertices: []
       indices: 
       edges: []
@@ -1545,72 +1608,75 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RPG_interior_recolored_0: 1550377662
-      RPG_interior_recolored_1: 408261600
-      RPG_interior_recolored_10: -770708889
-      RPG_interior_recolored_11: 1920671787
-      RPG_interior_recolored_12: -1800352947
-      RPG_interior_recolored_13: 1196207878
-      RPG_interior_recolored_14: -226065251
-      RPG_interior_recolored_15: -1102699983
-      RPG_interior_recolored_16: -1432178920
-      RPG_interior_recolored_17: 1953030847
-      RPG_interior_recolored_18: 260343907
-      RPG_interior_recolored_19: -1698669721
-      RPG_interior_recolored_2: 1423813022
-      RPG_interior_recolored_20: -962293684
-      RPG_interior_recolored_21: -2063184092
-      RPG_interior_recolored_22: 1018567042
-      RPG_interior_recolored_23: -203880960
-      RPG_interior_recolored_24: 419462194
-      RPG_interior_recolored_25: -1703814135
-      RPG_interior_recolored_26: -1309892577
-      RPG_interior_recolored_27: 1235792847
-      RPG_interior_recolored_28: -1656453248
-      RPG_interior_recolored_29: 748121345
-      RPG_interior_recolored_3: -2125678140
-      RPG_interior_recolored_30: -1822262387
-      RPG_interior_recolored_31: 727408394
-      RPG_interior_recolored_32: -551459066
-      RPG_interior_recolored_33: 1540981640
-      RPG_interior_recolored_34: 1256345872
-      RPG_interior_recolored_35: 1148476628
-      RPG_interior_recolored_36: -2142265316
-      RPG_interior_recolored_37: 147921482
-      RPG_interior_recolored_38: -38961492
-      RPG_interior_recolored_39: -542314865
-      RPG_interior_recolored_4: 47107734
-      RPG_interior_recolored_40: -133631602
-      RPG_interior_recolored_41: 194480754
-      RPG_interior_recolored_42: -623331231
-      RPG_interior_recolored_43: -409977769
-      RPG_interior_recolored_44: 1150258667
-      RPG_interior_recolored_45: 896920482
-      RPG_interior_recolored_46: 548465010
-      RPG_interior_recolored_47: -353879735
-      RPG_interior_recolored_48: -1304730375
-      RPG_interior_recolored_49: -692545444
-      RPG_interior_recolored_5: 1480583729
-      RPG_interior_recolored_50: 1015574892
-      RPG_interior_recolored_51: 1169226740
-      RPG_interior_recolored_52: -1758042306
-      RPG_interior_recolored_53: 1763909450
-      RPG_interior_recolored_54: 927784507
-      RPG_interior_recolored_55: 385035233
-      RPG_interior_recolored_56: 1556014145
-      RPG_interior_recolored_57: -1041737307
-      RPG_interior_recolored_58: -552213639
-      RPG_interior_recolored_59: 2037644223
-      RPG_interior_recolored_6: -2060428415
-      RPG_interior_recolored_60: 2121524480
-      RPG_interior_recolored_61: 867056653
-      RPG_interior_recolored_62: -1483274521
-      RPG_interior_recolored_63: 914201718
-      RPG_interior_recolored_64: 18219423
-      RPG_interior_recolored_65: 1123685989
-      RPG_interior_recolored_7: 1980776177
-      RPG_interior_recolored_8: 1898611498
-      RPG_interior_recolored_9: 1380839191
+      GBDungeon_recolor 1_0: -1746728598
+      GBDungeon_recolor 1_1: 1434367038
+      GBDungeon_recolor 1_10: 891612936
+      GBDungeon_recolor 1_11: 778596561
+      GBDungeon_recolor 1_12: 760283622
+      GBDungeon_recolor 1_13: -866648753
+      GBDungeon_recolor 1_14: 126848228
+      GBDungeon_recolor 1_15: 1877114870
+      GBDungeon_recolor 1_16: -1404595572
+      GBDungeon_recolor 1_17: -445870549
+      GBDungeon_recolor 1_18: 936549418
+      GBDungeon_recolor 1_19: -202005012
+      GBDungeon_recolor 1_2: 209927124
+      GBDungeon_recolor 1_20: -1907008513
+      GBDungeon_recolor 1_21: 764599156
+      GBDungeon_recolor 1_22: 173273373
+      GBDungeon_recolor 1_23: 1909941830
+      GBDungeon_recolor 1_24: 1324503477
+      GBDungeon_recolor 1_25: -456967765
+      GBDungeon_recolor 1_26: 1317198825
+      GBDungeon_recolor 1_27: 1488703492
+      GBDungeon_recolor 1_28: 1275093029
+      GBDungeon_recolor 1_29: 17607126
+      GBDungeon_recolor 1_3: 428308053
+      GBDungeon_recolor 1_30: -1191229309
+      GBDungeon_recolor 1_31: -378376839
+      GBDungeon_recolor 1_32: -1500809090
+      GBDungeon_recolor 1_33: -1208815309
+      GBDungeon_recolor 1_34: 2014831056
+      GBDungeon_recolor 1_35: 1643864912
+      GBDungeon_recolor 1_36: -2043478495
+      GBDungeon_recolor 1_37: 1193674891
+      GBDungeon_recolor 1_38: 995557747
+      GBDungeon_recolor 1_39: 739801281
+      GBDungeon_recolor 1_4: -614305571
+      GBDungeon_recolor 1_40: -1362450222
+      GBDungeon_recolor 1_41: -2050943378
+      GBDungeon_recolor 1_42: -298645082
+      GBDungeon_recolor 1_43: 217785221
+      GBDungeon_recolor 1_44: 1577035754
+      GBDungeon_recolor 1_45: 927925492
+      GBDungeon_recolor 1_46: -783316501
+      GBDungeon_recolor 1_47: 1959212941
+      GBDungeon_recolor 1_48: -1008630354
+      GBDungeon_recolor 1_49: 1994593290
+      GBDungeon_recolor 1_5: -1816274571
+      GBDungeon_recolor 1_50: -1671495214
+      GBDungeon_recolor 1_51: -1872569613
+      GBDungeon_recolor 1_52: 1051047683
+      GBDungeon_recolor 1_53: -551133929
+      GBDungeon_recolor 1_54: -1301980962
+      GBDungeon_recolor 1_55: -2053251149
+      GBDungeon_recolor 1_56: -416473021
+      GBDungeon_recolor 1_57: 1653975897
+      GBDungeon_recolor 1_58: 687989014
+      GBDungeon_recolor 1_59: -2011700124
+      GBDungeon_recolor 1_6: 1647452775
+      GBDungeon_recolor 1_60: -408505861
+      GBDungeon_recolor 1_61: 144800276
+      GBDungeon_recolor 1_62: -816959244
+      GBDungeon_recolor 1_63: -1292404473
+      GBDungeon_recolor 1_64: 95855581
+      GBDungeon_recolor 1_65: 1829110503
+      GBDungeon_recolor 1_66: -1670346339
+      GBDungeon_recolor 1_67: -1714720723
+      GBDungeon_recolor 1_68: -84681775
+      GBDungeon_recolor 1_7: 684537316
+      GBDungeon_recolor 1_8: -58520427
+      GBDungeon_recolor 1_9: 151735023
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
