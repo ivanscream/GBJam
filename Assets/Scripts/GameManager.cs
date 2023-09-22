@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour
     private int runes;
 
     public Text runeCount;
-    public Text keyCount;
 
     private void Start()
     {

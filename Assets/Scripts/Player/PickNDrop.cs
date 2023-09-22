@@ -12,6 +12,7 @@ public class PickNDrop : MonoBehaviour
     private bool tileUp, tileDown, tileLeft, tileRight;
     private Animator animator;
     private bool facingFront, facingBack, facingRight, facingLeft;
+    public bool isMoving;
 
     private void Start()
     {
@@ -45,7 +46,7 @@ public class PickNDrop : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.P))
         {
-            if (itemHolding != null)
+            if (itemHolding != null && !isMoving)
             {
                 itemHolding.transform.parent = null;
                 itemHolding = null;

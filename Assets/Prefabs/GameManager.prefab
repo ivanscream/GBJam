@@ -56,7 +56,6 @@ MonoBehaviour:
   rune8Picked: 0
   rune9Picked: 0
   runeCount: {fileID: 9168974745095588484}
-  keyCount: {fileID: 6674915569683586512}
 --- !u!114 &7519351241253513242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +87,14 @@ PrefabInstance:
     - target: {fileID: 4958678488363451538, guid: bb87d6f3515489348b188f19f6faad81, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -131.64001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172568123363913314, guid: bb87d6f3515489348b188f19f6faad81, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -49.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126831778549300406, guid: bb87d6f3515489348b188f19f6faad81, type: 3}
+      propertyPath: m_PixelSnapping
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8160461278555011109, guid: bb87d6f3515489348b188f19f6faad81, type: 3}
       propertyPath: m_LocalPosition.x
@@ -139,17 +146,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8160461278555011109, guid: bb87d6f3515489348b188f19f6faad81, type: 3}
   m_PrefabInstance: {fileID: 7005678856957878118}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6674915569683586512 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4439207369171698358, guid: bb87d6f3515489348b188f19f6faad81, type: 3}
-  m_PrefabInstance: {fileID: 7005678856957878118}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &9168974745095588484 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2163863343109182946, guid: bb87d6f3515489348b188f19f6faad81, type: 3}

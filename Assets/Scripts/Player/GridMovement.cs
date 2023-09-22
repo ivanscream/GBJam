@@ -119,6 +119,8 @@ public class GridMovement : MonoBehaviour
                 }
             }
         }
+
+        pickupScript.isMoving = isMoving;
     }
 
     private void MovementInputs()
