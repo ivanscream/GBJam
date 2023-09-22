@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class RunePickUp : MonoBehaviour
 {
+    
     private void FixedUpdate()
     {
         if(this.gameObject.CompareTag("rune1") && GameManager.gameManager.rune1Picked == true)

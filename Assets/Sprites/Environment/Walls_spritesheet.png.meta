@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 37c2f5db019ad6c41a8a6a6c981d0dc0
+guid: 9ea9fe3d9d908804dacbbda1ae4de67b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,127 +149,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RPG_exterior_recolored_0
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 100
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9553d832e9b819f499f9e76c2fdc686f
-      internalID: -498766852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_exterior_recolored_1
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 118
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29f0609bb6bbe184994a98745bd468bf
-      internalID: -1741247567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_exterior_recolored_2
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca2dad0aa07d4664cb688907652ec24b
-      internalID: -229660980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_exterior_recolored_3
+      name: Walls_spritesheet_0
       rect:
         serializedVersion: 2
         x: 16
-        y: 24
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d87c764acc05f724b8a90920979ca7c4
-      internalID: 560018779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RPG_exterior_recolored_4
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 96
+        y: 31
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b1a171285e0c944ca67d88904fbb13c
-      internalID: 421795825
+      spriteID: a9a67594d6ace244e970a67aebf6c513
+      internalID: -174060809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RPG_exterior_recolored_5
+      name: Walls_spritesheet_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 112
-        width: 32
+        y: 31
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc3d37d3274e49c4fbdcf7ffbd7b451a
-      internalID: -306671551
+      spriteID: 621b350547debb44b922855bf40d43d3
+      internalID: -595231878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e01110707375b438a0cc5af320a1f4
+      internalID: 1488196837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0501f61e324349147b0bc3ce2aeb854e
+      internalID: -974332542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde0c8c47eaa6fd4c8067b85d7be0c03
+      internalID: -1814939143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfcb33ef23af55469425006fd0a410e
+      internalID: -1631367535
       vertices: []
       indices: 
       edges: []
@@ -285,12 +285,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RPG_exterior_recolored_0: -498766852
-      RPG_exterior_recolored_1: -1741247567
-      RPG_exterior_recolored_2: -229660980
-      RPG_exterior_recolored_3: 560018779
-      RPG_exterior_recolored_4: 421795825
-      RPG_exterior_recolored_5: -306671551
+      Walls_spritesheet_0: -174060809
+      Walls_spritesheet_1: -595231878
+      Walls_spritesheet_2: 1488196837
+      Walls_spritesheet_3: -974332542
+      Walls_spritesheet_4: -1814939143
+      Walls_spritesheet_5: -1631367535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
