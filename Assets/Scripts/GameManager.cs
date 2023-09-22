@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,9 +9,15 @@ public class GameManager : MonoBehaviour
                 rune6Picked, rune7Picked, rune8Picked, rune9Picked;
     public static GameManager gameManager;
     private int runes;
+    [SerializeField] private int keys;
 
-    public Text runeCount;
+    
+    public static string enterDir;
 
+    private void Awake()
+    {
+        gameManager = this.gameObject.GetComponent<GameManager>();
+    }
     private void Start()
     {
         gameManager = this.gameObject.GetComponent<GameManager>();
@@ -22,7 +27,37 @@ public class GameManager : MonoBehaviour
     public void UpdateRuneCount(int runesToAdd)
     {
         runes += runesToAdd;
-        runeCount.text =runes.ToString();
     }
 
+    public int GetRuneCount()
+    {
+        return runes;
+    }
+
+    public void UpdateKeyCount(int keysToAdd)
+    {
+        keys += keysToAdd;
+    }
+    public int GetKeyCount()
+    {
+        return keys;
+    }
+
+    public static void SetEnterDirection(string exitRoom)
+    {
+        enterDir = exitRoom;
+    }
+
+    public static string GetEnterDirection()
+    {
+        return enterDir;
+    }
+
+    private void FixedUpdate()
+    {
+        if(gameManager == null)
+        {
+            gameManager = this.gameObject.GetComponent<GameManager>();
+        }
+    }
 }

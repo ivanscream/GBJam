@@ -18,7 +18,7 @@ public class GridMovement : MonoBehaviour
     [Header("Tile Check")]
     public Transform checkUp, checkDown, checkLeft, checkRight;
 
-    private bool tileUp, tileDown, tileLeft, tileRight;
+    [SerializeField] private bool tileUp, tileDown, tileLeft, tileRight;
 
     public LayerMask whatIsBlock;
     private static readonly int Horizontal = Animator.StringToHash("Horizontal");
@@ -29,6 +29,7 @@ public class GridMovement : MonoBehaviour
 
     void Start()
     {
+        
         pickupScript = this.gameObject.GetComponent<PickNDrop>();
         Rigidbody2D rb = this.gameObject.GetComponent<Rigidbody2D>();
 
@@ -43,12 +44,9 @@ public class GridMovement : MonoBehaviour
     {
         MoveFaster();
 
+
         OverlapTileCheck();
         
-        MovementInputs();
-        
-        SetMovementVector();
-
         if (pickupScript.itemHolding != null)
         {
             Vector3 hold = new Vector3(pickupScript.itemHolding.transform.position.x,
@@ -70,7 +68,8 @@ public class GridMovement : MonoBehaviour
                     hitCollider.tag != "cyan" &&
                     hitCollider.tag != "yellow" &&
                     hitCollider.tag != "orange" &&
-                    hitCollider.tag != "rainbow")
+                    hitCollider.tag != "rainbow" &&
+                    hitCollider.tag != "Key")
                     tileUp = true;
             }
 
@@ -84,7 +83,8 @@ public class GridMovement : MonoBehaviour
                     hitCollider.tag != "cyan" &&
                     hitCollider.tag != "yellow" &&
                     hitCollider.tag != "orange" &&
-                    hitCollider.tag != "rainbow")
+                    hitCollider.tag != "rainbow" &&
+                    hitCollider.tag != "Key")
                     tileDown = true;
             }
 
@@ -98,7 +98,8 @@ public class GridMovement : MonoBehaviour
                     hitCollider.tag != "cyan" &&
                     hitCollider.tag != "yellow" &&
                     hitCollider.tag != "orange" &&
-                    hitCollider.tag != "rainbow")
+                    hitCollider.tag != "rainbow" &&
+                    hitCollider.tag != "Key")
                     tileLeft = true;
             }
 
@@ -113,12 +114,18 @@ public class GridMovement : MonoBehaviour
                     hitCollider.tag != "cyan" &&
                     hitCollider.tag != "yellow" &&
                     hitCollider.tag != "orange" &&
-                    hitCollider.tag != "rainbow")
+                    hitCollider.tag != "rainbow" &&
+                    hitCollider.tag != "Key")
                 {
                     tileRight = true;
                 }
             }
         }
+
+        MovementInputs();
+        
+        SetMovementVector();
+
 
         pickupScript.isMoving = isMoving;
     }

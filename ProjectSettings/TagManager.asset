@@ -31,6 +31,8 @@ TagManager:
   - rune7
   - rune8
   - rune9
+  - RuneCount
+  - Key
   layers:
   - Default
   - TransparentFX
