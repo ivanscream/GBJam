@@ -10,11 +10,7 @@ public class DoorScript : MonoBehaviour
     void Start()
     {
         blockingCollider = this.gameObject.GetComponent<Collider2D>();
-
-        
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (GameManager.gameManager.GetKeyCount() >= roomLockNumber)
