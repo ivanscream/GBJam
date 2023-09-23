@@ -14,6 +14,11 @@ public class PickNDrop : MonoBehaviour
     private bool facingFront, facingBack, facingRight, facingLeft;
     public bool isMoving;
 
+    private void Awake()
+    {
+        
+    }
+
     private void Start()
     {
         animator = this.GetComponent<Animator>();
@@ -53,7 +58,7 @@ public class PickNDrop : MonoBehaviour
                     heldBlockCollider = null;
                 }
             }
-            else
+            else if(itemHolding == null)
             {
                 Collider2D pickedUp = Physics2D.OverlapCircle(holdSpot.position,
                     0.2f, pickUpLayer);

@@ -59,14 +59,6 @@ public class GridMovement : MonoBehaviour
             if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
-                    hitCollider.tag != "blue" &&
-                    hitCollider.tag != "purple" &&
-                    hitCollider.tag != "green" &&
-                    hitCollider.tag != "white" &&
-                    hitCollider.tag != "cyan" &&
-                    hitCollider.tag != "yellow" &&
-                    hitCollider.tag != "orange" &&
-                    hitCollider.tag != "rainbow" &&
                     hitCollider.tag != "Key")
                     tileUp = true;
             }
@@ -75,14 +67,6 @@ public class GridMovement : MonoBehaviour
             if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
-                    hitCollider.tag != "blue" &&
-                    hitCollider.tag != "purple" &&
-                    hitCollider.tag != "green" &&
-                    hitCollider.tag != "white" &&
-                    hitCollider.tag != "cyan" &&
-                    hitCollider.tag != "yellow" &&
-                    hitCollider.tag != "orange" &&
-                    hitCollider.tag != "rainbow" &&
                     hitCollider.tag != "Key")
                     tileDown = true;
             }
@@ -90,14 +74,6 @@ public class GridMovement : MonoBehaviour
             if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
-                    hitCollider.tag != "blue" &&
-                    hitCollider.tag != "purple" &&
-                    hitCollider.tag != "green" &&
-                    hitCollider.tag != "white" &&
-                    hitCollider.tag != "cyan" &&
-                    hitCollider.tag != "yellow" &&
-                    hitCollider.tag != "orange" &&
-                    hitCollider.tag != "rainbow" &&
                     hitCollider.tag != "Key")
                     tileLeft = true;
             }
@@ -106,14 +82,6 @@ public class GridMovement : MonoBehaviour
             if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
-                    hitCollider.tag != "blue" &&
-                    hitCollider.tag != "purple" &&
-                    hitCollider.tag != "green" &&
-                    hitCollider.tag != "white" &&
-                    hitCollider.tag != "cyan" &&
-                    hitCollider.tag != "yellow" &&
-                    hitCollider.tag != "orange" &&
-                    hitCollider.tag != "rainbow" &&
                     hitCollider.tag != "Key")
                     tileRight = true;
             }

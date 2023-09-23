@@ -9,14 +9,6 @@ TagManager:
   - Road
   - Block
   - red
-  - blue
-  - purple
-  - green
-  - white
-  - cyan
-  - yellow
-  - orange
-  - rainbow
   - ToMain
   - PuzzleLeft
   - PuzzleRight
@@ -33,7 +25,19 @@ TagManager:
   - rune9
   - RuneCount
   - Key
-  - TextTrigger
+  - TextTrigger1
+  - TextTrigger2
+  - TextTrigger3
+  - TextTrigger4
+  - TextTrigger5
+  - TextTrigger6
+  - TextTrigger7
+  - TextTrigger8
+  - TextTrigger9
+  - TextTrigger10
+  - TextTrigger11
+  - TextTrigger12
+  - TextTrigger13
   layers:
   - Default
   - TransparentFX

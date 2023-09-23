@@ -45,11 +45,10 @@ public class DialogueManager : MonoBehaviour
         string sentence = sentences.Dequeue();
         dialogueText.text = sentence;
     }
-
+    
     private void EndDialogue()
     {
-            Debug.Log("Nothing to say");
-            GameManager.gameManager.textIsActive = false;
-            GameManager.gameManager.destroyTextTrigger = true;
-    }
+        GameManager.gameManager.textIsActive = false;
+        Debug.Log("Dialogue End");
+    }  
 }

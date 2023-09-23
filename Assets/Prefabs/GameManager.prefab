@@ -103,6 +103,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2631089042512584552}
   - {fileID: 1154860521295030083}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -127,6 +128,9 @@ MonoBehaviour:
   rune7Picked: 0
   rune8Picked: 0
   rune9Picked: 0
+  textIsActive: 0
+  destroyTextTrigger: 0
+  textStuff: {fileID: 0}
   keys: 0
 --- !u!114 &7519351241253513242
 MonoBehaviour:
@@ -613,7 +617,7 @@ RectTransform:
   - {fileID: 1546340573836654624}
   - {fileID: 5705348676067450980}
   - {fileID: 1881261661031663895}
-  m_Father: {fileID: 1154860521295030083}
+  m_Father: {fileID: 5003813086734037168}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -758,10 +762,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8919628159392090887, guid: bb87d6f3515489348b188f19f6faad81, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8160461278555011109, guid: bb87d6f3515489348b188f19f6faad81, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2631089042512584552}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb87d6f3515489348b188f19f6faad81, type: 3}
 --- !u!4 &1154860521295030083 stripped

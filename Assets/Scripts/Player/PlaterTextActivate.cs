@@ -6,10 +6,21 @@ using UnityEngine;
 
 public class PlaterTextActivate : MonoBehaviour
 {
+    private string[] triggers = new string[]
+    {
+        "TextTrigger1", "TextTrigger2", "TextTrigger3", "TextTrigger4",
+        "TextTrigger5", "TextTrigger6", "TextTrigger7", "TextTrigger8",
+        "TextTrigger9", "TextTrigger10", "TextTrigger11", "TextTrigger12",
+        "TextTrigger13"
+    };
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("TextTrigger"))
-            GameManager.gameManager.textIsActive = true;
+        foreach (string tag in triggers)
+        {
+            if (other.CompareTag(tag))
+                GameManager.gameManager.textIsActive = true;
+        } 
+        
     }
     
 }
