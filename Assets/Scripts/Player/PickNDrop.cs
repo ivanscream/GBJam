@@ -17,11 +17,8 @@ public class PickNDrop : MonoBehaviour
     private void Start()
     {
         animator = this.GetComponent<Animator>();
-        
-        
     }
-
-
+    
     private void Update()
     {
         facingLeft = animator.GetBool("facingLeft");

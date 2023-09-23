@@ -7,7 +7,10 @@ public class GameManager : MonoBehaviour
 {
     public bool rune1Picked, rune2Picked, rune3Picked, rune4Picked, rune5Picked, 
                 rune6Picked, rune7Picked, rune8Picked, rune9Picked;
+
+    public bool textIsActive, destroyTextTrigger;
     public static GameManager gameManager;
+    public GameObject textStuff;
     private int runes;
     [SerializeField] private int keys;
 
@@ -17,6 +20,17 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         gameManager = this.gameObject.GetComponent<GameManager>();
+    }
+
+    void Update()
+    {
+        if (textIsActive)
+        {
+            textStuff.SetActive(true);
+            GameManager.gameManager.destroyTextTrigger = false;
+        }
+        else textStuff.SetActive(false);
+        
     }
     private void Start()
     {

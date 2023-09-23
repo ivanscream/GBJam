@@ -43,8 +43,6 @@ public class GridMovement : MonoBehaviour
     void Update()
     {
         MoveFaster();
-
-
         OverlapTileCheck();
         
         if (pickupScript.itemHolding != null)
@@ -56,9 +54,9 @@ public class GridMovement : MonoBehaviour
             Vector3 tempRight = new Vector3(hold.x + 1, hold.y, hold.z);
             Vector3 tempLeft = new Vector3(hold.x - 1, hold.y, hold.z);
 
-            Collider2D hitCollider;
-
-            if (hitCollider = Physics2D.OverlapCircle(tempUp, checkRadius, whatIsBlock))
+            Collider2D hitCollider = Physics2D.OverlapCircle(tempUp, checkRadius, whatIsBlock);
+            
+            if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
                     hitCollider.tag != "blue" &&
@@ -72,8 +70,9 @@ public class GridMovement : MonoBehaviour
                     hitCollider.tag != "Key")
                     tileUp = true;
             }
-
-            if (hitCollider = Physics2D.OverlapCircle(tempDown, checkRadius, whatIsBlock))
+            
+            hitCollider = Physics2D.OverlapCircle(tempDown, checkRadius, whatIsBlock);
+            if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
                     hitCollider.tag != "blue" &&
@@ -87,8 +86,8 @@ public class GridMovement : MonoBehaviour
                     hitCollider.tag != "Key")
                     tileDown = true;
             }
-
-            if (hitCollider = Physics2D.OverlapCircle(tempLeft, checkRadius, whatIsBlock))
+            hitCollider = Physics2D.OverlapCircle(tempLeft, checkRadius, whatIsBlock);
+            if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
                     hitCollider.tag != "blue" &&
@@ -103,8 +102,8 @@ public class GridMovement : MonoBehaviour
                     tileLeft = true;
             }
 
-
-            if (hitCollider = Physics2D.OverlapCircle(tempRight, checkRadius, whatIsBlock))
+            hitCollider = Physics2D.OverlapCircle(tempRight, checkRadius, whatIsBlock);
+            if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
                     hitCollider.tag != "blue" &&
@@ -116,17 +115,12 @@ public class GridMovement : MonoBehaviour
                     hitCollider.tag != "orange" &&
                     hitCollider.tag != "rainbow" &&
                     hitCollider.tag != "Key")
-                {
                     tileRight = true;
-                }
             }
         }
 
         MovementInputs();
-        
         SetMovementVector();
-
-
         pickupScript.isMoving = isMoving;
     }
 

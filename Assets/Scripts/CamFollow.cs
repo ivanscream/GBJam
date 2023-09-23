@@ -9,7 +9,7 @@ public class CamFollow : MonoBehaviour
 
     void Update()
     {
-        target = GameObject.FindWithTag("Player");
+        target = GameObject.FindWithTag("Player");target = GameObject.FindWithTag("Player");
     }
     void LateUpdate()
     {

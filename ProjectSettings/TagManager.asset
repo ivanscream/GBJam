@@ -33,6 +33,7 @@ TagManager:
   - rune9
   - RuneCount
   - Key
+  - TextTrigger
   layers:
   - Default
   - TransparentFX
