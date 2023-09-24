@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
                 rune6Picked, rune7Picked, rune8Picked, rune9Picked;
     
     [SerializeField] public bool text1Fin, text2Fin, text3Fin, text4Fin, text5Fin, text6Fin, text7Fin,
-                text8Fin, text9Fin, text10Fin, text11Fin, text12Fin, text13Fin;
+                text8Fin, text9Fin, text10Fin, text11Fin, text12Fin, text13Fin, text14Fin, text15Fin, text16Fin, text17Fin;
     
     public static Vector3 rune1Pos, rune2Pos, rune3Pos, rune4Pos, rune5Pos, rune6Pos, rune7Pos, rune8Pos, rune9Pos;
 

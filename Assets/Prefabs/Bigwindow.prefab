@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1824114525945910345}
   - component: {fileID: 3416476794420788004}
   - component: {fileID: 1550713989043571358}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bigwindow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3619111198325665831}
   - component: {fileID: 5020945064911278924}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GBDungeon_recolor_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 789583298, guid: 75f23f5ae31b4174aaa2c86cca32f8b4, type: 3}
+  m_Sprite: {fileID: -29374584, guid: d3ff944463df9aa428209a6ff0c65f11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -230,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8263626603797691684}
   - component: {fileID: 7781131374385257476}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GBDungeon_recolor_1 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1538682938, guid: 75f23f5ae31b4174aaa2c86cca32f8b4, type: 3}
+  m_Sprite: {fileID: 1442992290, guid: d3ff944463df9aa428209a6ff0c65f11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -314,7 +314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6906342386493664605}
   - component: {fileID: 3833021963773095334}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GBDungeon_recolor_1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1538682938, guid: 75f23f5ae31b4174aaa2c86cca32f8b4, type: 3}
+  m_Sprite: {fileID: 1442992290, guid: d3ff944463df9aa428209a6ff0c65f11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -398,7 +398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 678961882869530216}
   - component: {fileID: 4616442601439389952}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GBDungeon_recolor_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +461,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1538682938, guid: 75f23f5ae31b4174aaa2c86cca32f8b4, type: 3}
+  m_Sprite: {fileID: 1442992290, guid: d3ff944463df9aa428209a6ff0c65f11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -482,7 +482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7068004296037442696}
   - component: {fileID: 4228445214550750115}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GBDungeon_recolor_1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1538682938, guid: 75f23f5ae31b4174aaa2c86cca32f8b4, type: 3}
+  m_Sprite: {fileID: 1442992290, guid: d3ff944463df9aa428209a6ff0c65f11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -566,7 +566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2271886097822149263}
   - component: {fileID: 2816103640721843864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GBDungeon_recolor_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,7 +629,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -435025111, guid: 75f23f5ae31b4174aaa2c86cca32f8b4, type: 3}
+  m_Sprite: {fileID: 136307319, guid: d3ff944463df9aa428209a6ff0c65f11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -38,6 +38,10 @@ TagManager:
   - TextTrigger11
   - TextTrigger12
   - TextTrigger13
+  - TextTrigger14
+  - TextTrigger15
+  - TextTrigger16
+  - TextTrigger17
   layers:
   - Default
   - TransparentFX
