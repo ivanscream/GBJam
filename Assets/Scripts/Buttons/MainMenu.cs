@@ -6,12 +6,16 @@ public class MainMenu : MonoBehaviour
 {
     private int buttonPos = 0;
     [SerializeField] private ButtonParent[] buttonList;
+    [SerializeField] private ButtonParent[] buttonListBottom;
+    private ButtonParent[] activeList;
 
     public static bool lockMain = false;
 
     private void Start()
     {
-        buttonList[buttonPos].selected = true;
+        activeList = buttonList;
+        buttonPos = 0;
+        activeList[buttonPos].selected = true;
     }
 
     private void Update()
@@ -27,31 +31,66 @@ public class MainMenu : MonoBehaviour
             {
                 MoveLeft();
             }
+
+            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S))
+            {
+                ChangeRow();
+            }
         }
 
             if (Input.GetKeyDown(KeyCode.P))
             {
-                buttonList[buttonPos].Use();
+                activeList[buttonPos].Use();
             }
     }
 
     void MoveRight()
     {
-        buttonList[buttonPos].selected = false;
+        activeList[buttonPos].selected = false;
         if (buttonPos < buttonList.Length - 1)
             buttonPos++;
         else
             buttonPos = 0;
-        buttonList[buttonPos].selected = true;
+        activeList[buttonPos].selected = true;
     }
 
     void MoveLeft()
     {
-        buttonList[buttonPos].selected = false;
+        activeList[buttonPos].selected = false;
         if (buttonPos > 0)
             buttonPos--;
         else
             buttonPos = buttonList.Length - 1;
-        buttonList[buttonPos].selected = true;
+        activeList[buttonPos].selected = true;
+    }
+
+    void ChangeRow()
+    {
+        activeList[buttonPos].selected = false;
+        if (activeList == buttonList)
+        {
+            if(buttonListBottom.Length != 0)
+            {
+                if(buttonPos > buttonListBottom.Length - 1)
+                {
+                    buttonPos = buttonListBottom.Length - 1;
+                }
+
+                activeList = buttonListBottom;
+            }
+        }
+        else if (activeList == buttonListBottom)
+        {
+            if (buttonList.Length != 0)
+            {
+                if (buttonPos > buttonList.Length - 1)
+                {
+                    buttonPos = buttonList.Length - 1;
+                }
+
+                activeList = buttonList;
+            }
+        }
+        activeList[buttonPos].selected = true;
     }
 }

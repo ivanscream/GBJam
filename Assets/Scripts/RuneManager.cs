@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class RuneManager : MonoBehaviour
 {
-    [SerializeField] private RuneSlot[] slots;
+    [SerializeField] private RuneSlot[] slots, secondarySlots;
     [SerializeField] private MainRoomRunes[] runes;
     bool winCondition;
 
@@ -23,7 +23,7 @@ public class RuneManager : MonoBehaviour
     private void Start()
     {
         instance = this;
-        if(runes.Length == 0 || slots.Length == 0)
+        if (runes.Length == 0 || slots.Length == 0)
         {
             FillArrays();
         }
@@ -122,17 +122,32 @@ public class RuneManager : MonoBehaviour
             winCondition = true;
     }
 
-    
-    
+
+
 
     public void FillArrays()
     {
         runes = GameObject.FindObjectsOfType<MainRoomRunes>();
-        slots = GameObject.FindObjectsOfType<RuneSlot>();
+        //slots = GameObject.FindObjectsOfType<RuneSlot>();
     }
 
     public MainRoomRunes[] GetRunes()
     {
         return runes;
+    }
+
+    public bool GetSecondaryCondition()
+    {
+        foreach (RuneSlot slot in secondarySlots)
+        {
+            //find if any aren't filled and return out of function if one is not
+            if (!slot.slotFilled)
+            {
+                return false;
+            }
+
+        }
+        //set true if you get through the foreach loop without breaking
+        return true;
     }
 }

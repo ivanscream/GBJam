@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class StartButton : ButtonParent
+public class CreditsButton : ButtonParent
 {
     private Animator anim;
 
-    public StartScreen startScreen;
+    public GameObject creditsScreen;
 
     private void Start()
     {
@@ -16,12 +15,12 @@ public class StartButton : ButtonParent
 
     void Update()
     {
-       anim.SetBool("selected", selected);
+        anim.SetBool("selected", selected);
     }
 
     public override void Use()
     {
-        startScreen.gameObject.SetActive(true);
-        startScreen.enabled = true;
+        MainMenu.lockMain = !MainMenu.lockMain;
+        creditsScreen.SetActive(!creditsScreen.activeSelf);
     }
 }

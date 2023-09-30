@@ -4921,11 +4921,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1081809916228301611, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5600216
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1081809916228301611, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.6018436
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 1081809916228301611, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9688,6 +9688,10 @@ PrefabInstance:
       value: TextTrigger3
       objectReference: {fileID: 0}
     - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
       value: Oh, maybe that's one of the Runes I need to collect?...
       objectReference: {fileID: 0}
@@ -9697,7 +9701,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Solving other "thing's" mind may be challenging...
+      value: Solving this thing's mind may be challenging...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Maybe the order of these runes on the wall matter?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: I should look for more...
       objectReference: {fileID: 0}
     - target: {fileID: 6642776705021866622, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: m_Size.x
@@ -10153,7 +10165,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 118087053, guid: 25c0fda23c5e2484fbc1d68eb22347cb, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12635,6 +12647,10 @@ PrefabInstance:
     - target: {fileID: 1031490024216808453, guid: 22bf89e27d9856746af80d6d19020f7d, type: 3}
       propertyPath: m_Name
       value: Rune5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031490024216808453, guid: 22bf89e27d9856746af80d6d19020f7d, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1031490024216808453, guid: 22bf89e27d9856746af80d6d19020f7d, type: 3}
       propertyPath: m_IsActive
@@ -22875,7 +22891,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 160960109, guid: 25c0fda23c5e2484fbc1d68eb22347cb, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -24591,6 +24607,10 @@ PrefabInstance:
       value: Rune9
       objectReference: {fileID: 0}
     - target: {fileID: 1031490024216808453, guid: 22bf89e27d9856746af80d6d19020f7d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031490024216808453, guid: 22bf89e27d9856746af80d6d19020f7d, type: 3}
       propertyPath: m_TagString
       value: rune9
       objectReference: {fileID: 0}
@@ -25300,7 +25320,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 354044397, guid: 25c0fda23c5e2484fbc1d68eb22347cb, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -27131,7 +27151,7 @@ Transform:
   m_GameObject: {fileID: 1220333456}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.5, y: 0.75, z: 0.044044316}
+  m_LocalPosition: {x: 5.5, y: 0.5, z: 0.044044316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28275,7 +28295,7 @@ Transform:
   m_GameObject: {fileID: 1260947151}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -4.25, z: 0.044044316}
+  m_LocalPosition: {x: -0.5, y: -4.5, z: 0.044044316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30961,7 +30981,7 @@ Transform:
   m_GameObject: {fileID: 1361609809}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.5, y: 0.75, z: 0.044044316}
+  m_LocalPosition: {x: 4.5, y: 0.5, z: 0.044044316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32396,7 +32416,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1102699983, guid: 8489c40e73302944b8cceff4e0736ac8, type: 3}
+  m_Sprite: {fileID: 1898611498, guid: 8489c40e73302944b8cceff4e0736ac8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -33103,7 +33123,7 @@ Transform:
   m_GameObject: {fileID: 1424590638}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5, y: -4.25, z: 0.044044316}
+  m_LocalPosition: {x: 1.5, y: -4.5, z: 0.044044316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35211,19 +35231,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Look's like I have to carry it to that hole..
+      value: What is that round thing?
       objectReference: {fileID: 0}
     - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: In the beginning of the room...
+      value: Look's like I have to carry it to that hole..
       objectReference: {fileID: 0}
     - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Oh it's sticky!
+      value: In the beginning of the room...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345997993890561912, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Ew! It's sticky!
       objectReference: {fileID: 0}
     - target: {fileID: 6642776705021866622, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: m_Size.x
@@ -35972,11 +35996,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1081809916228301611, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.52
+      value: 11.5
       objectReference: {fileID: 0}
     - target: {fileID: 1081809916228301611, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.44
+      value: -10.5
       objectReference: {fileID: 0}
     - target: {fileID: 1081809916228301611, guid: a0f422d04998c9e49add34196c2c37d8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37488,7 +37512,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1432178920, guid: 8489c40e73302944b8cceff4e0736ac8, type: 3}
+  m_Sprite: {fileID: 1898611498, guid: 8489c40e73302944b8cceff4e0736ac8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -43936,7 +43960,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1102699983, guid: 8489c40e73302944b8cceff4e0736ac8, type: 3}
+  m_Sprite: {fileID: 1898611498, guid: 8489c40e73302944b8cceff4e0736ac8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -47916,7 +47940,7 @@ Transform:
   m_GameObject: {fileID: 2025297151}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -4.25, z: 0.044044316}
+  m_LocalPosition: {x: 0.5, y: -4.5, z: 0.044044316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50962,6 +50986,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5294158164055819058, guid: 46494d5e9f5f6134d87766cd54a2209d, type: 3}
+      propertyPath: roomNumber
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7886611346840643123, guid: 46494d5e9f5f6134d87766cd54a2209d, type: 3}
       propertyPath: m_Name
       value: Key
@@ -51026,7 +51054,7 @@ PrefabInstance:
     - target: {fileID: 7502260350063920114, guid: 7a6534b9efc4e3443ac39ad74954de01, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2112023924, guid: b36a6014f503938488a8c940775110c2, type: 3}
+      objectReference: {fileID: -142832127, guid: 01a100e1731c13d429926cb9c26c5730, type: 3}
     - target: {fileID: 7963498657201746049, guid: 7a6534b9efc4e3443ac39ad74954de01, type: 3}
       propertyPath: m_Name
       value: Door Lock

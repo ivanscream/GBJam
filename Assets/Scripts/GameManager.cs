@@ -6,8 +6,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public bool rune1Picked, rune2Picked, rune3Picked, rune4Picked, rune5Picked, 
-                rune6Picked, rune7Picked, rune8Picked, rune9Picked;
-    
+                rune6Picked, rune7Picked, rune8Picked, rune9Picked, OptionalDoor = false, won;
+
+    public bool slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9;
+
+    public Dialogue winDialogue;
+
     [SerializeField] public bool text1Fin, text2Fin, text3Fin, text4Fin, text5Fin, text6Fin, text7Fin,
                 text8Fin, text9Fin, text10Fin, text11Fin, text12Fin, text13Fin, text14Fin, text15Fin, text16Fin, text17Fin;
     
@@ -25,6 +29,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         gameManager = this;
+        OptionalDoor = false;
     }
 
     void Update()
@@ -141,6 +146,93 @@ public class GameManager : MonoBehaviour
 
     public void Win()
     {
-        Debug.Log("Win conditions met, give motherboard");
+        if (!won)
+        {
+            won = true;
+            FindObjectOfType<Motherboard>().GetComponent<SpriteRenderer>().enabled = true;
+            FindObjectOfType<Motherboard>().GetComponent<Collider2D>().enabled = true;
+        }
+    }
+
+    public bool GetSlotStatus(string slotName)
+    {
+        if(slotName == "slot1")
+        {
+            return slot1;
+        }
+        else if (slotName == "slot2")
+        {
+            return slot2;
+        }
+        else if (slotName == "slot3")
+        {
+            return slot3;
+        }
+        else if (slotName == "slot4")
+        {
+            return slot4;
+        }
+        else if (slotName == "slot5")
+        {
+            return slot5;
+        }
+        else if (slotName == "slot6")
+        {
+            return slot6;
+        }
+        else if (slotName == "slot7")
+        {
+            return slot7;
+        }
+        else if (slotName == "slot8")
+        {
+            return slot8;
+        }
+        else if (slotName == "slot9")
+        {
+            return slot9;
+        }
+
+        return false;
+    }
+
+    public void SetSlotStatus(string slotName, bool value)
+    {
+        if (slotName == "slot1")
+        {
+            slot1 = value;
+        }
+        else if (slotName == "slot2")
+        {
+            slot2 = value;
+        }
+        else if (slotName == "slot3")
+        {
+            slot3 = value;
+        }
+        else if (slotName == "slot4")
+        {
+            slot4 = value;
+        }
+        else if (slotName == "slot5")
+        {
+            slot5 = value;
+        }
+        else if (slotName == "slot6")
+        {
+            slot6 = value;
+        }
+        else if (slotName == "slot7")
+        {
+            slot7 = value;
+        }
+        else if (slotName == "slot8")
+        {
+            slot8 = value;
+        }
+        else if (slotName == "slot9")
+        {
+            slot9 = value;
+        }
     }
 }

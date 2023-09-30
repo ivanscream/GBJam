@@ -248,6 +248,9 @@ MonoBehaviour:
   whatIsBlock:
     serializedVersion: 2
     m_Bits: 8
+  whatIsObjectBlock:
+    serializedVersion: 2
+    m_Bits: 136
 --- !u!114 &3232652607465850969
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,6 +11,8 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
     public TextMeshProUGUI dialogueText;
 
+    [SerializeField] bool isStartScreen;
+
     private void Start()
     {
         sentences = new Queue<string>();
@@ -18,8 +20,11 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.P))
-            DisplayNextSentence();
+        if (!isStartScreen)
+            {
+            if(Input.GetKeyDown(KeyCode.P))
+                DisplayNextSentence();
+            }
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -49,7 +54,10 @@ public class DialogueManager : MonoBehaviour
     
     private void EndDialogue()
     {
-        GameManager.gameManager.textIsActive = false;
+        if(GameManager.gameManager != null)
+        {
+            GameManager.gameManager.textIsActive = false;
+        }
         Debug.Log("Dialogue End");
     }
 

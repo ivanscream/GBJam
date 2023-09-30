@@ -7,7 +7,7 @@ public class Key : MonoBehaviour
 
     public int roomNumber;
 
-    private void Start()
+    private void FixedUpdate()
     {
         if (GameManager.gameManager.GetKeyCount() >= roomNumber)
         {

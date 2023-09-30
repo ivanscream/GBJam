@@ -21,6 +21,7 @@ public class GridMovement : MonoBehaviour
     [SerializeField] private bool tileUp, tileDown, tileLeft, tileRight;
 
     public LayerMask whatIsBlock;
+    public LayerMask whatIsObjectBlock;
     private static readonly int Horizontal = Animator.StringToHash("Horizontal");
     private static readonly int Vertical = Animator.StringToHash("Vertical");
 
@@ -54,7 +55,7 @@ public class GridMovement : MonoBehaviour
             Vector3 tempRight = new Vector3(hold.x + 1, hold.y, hold.z);
             Vector3 tempLeft = new Vector3(hold.x - 1, hold.y, hold.z);
 
-            Collider2D hitCollider = Physics2D.OverlapCircle(tempUp, checkRadius, whatIsBlock);
+            Collider2D hitCollider = Physics2D.OverlapCircle(tempUp, checkRadius, whatIsObjectBlock);
             
             if (hitCollider)
             {
@@ -63,14 +64,14 @@ public class GridMovement : MonoBehaviour
                     tileUp = true;
             }
             
-            hitCollider = Physics2D.OverlapCircle(tempDown, checkRadius, whatIsBlock);
+            hitCollider = Physics2D.OverlapCircle(tempDown, checkRadius, whatIsObjectBlock);
             if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
                     hitCollider.tag != "Key")
                     tileDown = true;
             }
-            hitCollider = Physics2D.OverlapCircle(tempLeft, checkRadius, whatIsBlock);
+            hitCollider = Physics2D.OverlapCircle(tempLeft, checkRadius, whatIsObjectBlock);
             if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
@@ -78,7 +79,7 @@ public class GridMovement : MonoBehaviour
                     tileLeft = true;
             }
 
-            hitCollider = Physics2D.OverlapCircle(tempRight, checkRadius, whatIsBlock);
+            hitCollider = Physics2D.OverlapCircle(tempRight, checkRadius, whatIsObjectBlock);
             if (hitCollider)
             {
                 if (hitCollider.tag != "red" &&
